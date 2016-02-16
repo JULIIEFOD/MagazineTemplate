@@ -1,0 +1,43 @@
+footer {
+    font-family: sans-serif;
+    .container {
+padding-bottom: 20px;}
+    
+    .footer__commercial {
+        text-align: center;
+        padding: 25px 0;
+        border-bottom: 2px dotted;
+        border-top: 2px dotted;
+        img {
+            height: 90px;
+        }
+     }
+    .footer__nav {
+        text-align: center;
+        padding: 0;
+        margin-top: 22px;
+        margin-left: 143px;
+        margin-bottom: 30px;
+        
+        li {
+            list-style: none;
+            border-right: 1px solid gray;
+            padding: 0 10px;
+            float: left;
+            font-size: 12px;
+            text-transform: capitalize;
+            &:last-child {
+                border-right: 0;
+            }
+        }
+        
+        
+    }
+    .copyright, .reproduction {
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+        }
+
+   
+}

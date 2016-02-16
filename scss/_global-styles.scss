@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    &,
+    &:after,
+    &:before {
+    @include box-sizing;
+    }
+}
+
+
+body {
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    background-image: url("../img/world%20bg.png");
+    @include bg-image;
+    background-size: auto 690px;
+    background-position: top;
+
+    
+    
+//    background: url("../img/world%20bg.png"), url("../img/Pattern%20Fill%201.png");
+//    background-size: cover;
+//    background-position: center;
+//    background-repeat: no-repeat, repeat;
+
+ 
+    
+    
+}
+
+
+.clear {
+        &::after{
+            content: " ";
+            clear: both;
+            display: block;
+        }
+    }
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px;
+
+}
+
+.btn {
+    color:  #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+    padding: 2px 15px;
+   
+}
+
+
+.collection-name {
+    width: 100%;
+    color:  #202021;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 3px solid red;
+    margin-bottom: 15px;
+    margin-top: 27px;
+    float: left;
+        h3 {
+         float: left;
+        }
+        
+        .btn {
+            position: relative;
+            float: right;
+            margin-top: 13px;
+        }
+    
+}
+
+.read-more {
+            text-transform: uppercase;
+            color: red;
+            font-size: 12px;
+            font-family: sans-serif;
+        }
+
